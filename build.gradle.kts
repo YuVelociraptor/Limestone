@@ -5,6 +5,12 @@ plugins {
 group = "jp.complexalpha"
 version = "1.0-SNAPSHOT"
 
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = "jp.complexalpha.Main"
+    }
+}
+
 repositories {
     mavenCentral()
 }
