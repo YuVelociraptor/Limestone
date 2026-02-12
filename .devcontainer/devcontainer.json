@@ -1,0 +1,6 @@
+{
+  "name": "java25",
+  "image": "mcr.microsoft.com/devcontainers/java:3-25-jdk-trixie",
+
+  "postCreateCommand": "java -version"
+}
