@@ -12,13 +12,13 @@ public class Main {
 
         for(;;){
             IO.print(">");
-            String s = IO.readLine();
-            IO.println(s);
-            IO.println( s.length());
+            String line = IO.readln();
 
-            if (s.equals("exit")){
+            if (line.equals("exit")){
                 break;
             }
+
+            run(line);
         }
     }
 
