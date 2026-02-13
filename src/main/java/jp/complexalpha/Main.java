@@ -11,7 +11,8 @@ public class Main {
     private static void runPrompt() {
 
         for(;;){
-            String s = IO.readln();
+            IO.print(">");
+            String s = IO.readLine();
             IO.println(s);
             IO.println( s.length());
 
@@ -19,5 +20,10 @@ public class Main {
                 break;
             }
         }
+    }
+
+    private static void run(String source){
+
+        IO.println(source);
     }
 }
